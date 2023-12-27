@@ -17,6 +17,7 @@ public class Person3 {
     public static void main(String[] args) {
         Person3 person=Person3.builder().name("Veli").surname("Han").age(43).build();
         Person3 person2=Person3.builder().name("Ali").surname("Hanli").build();
+        System.out.println(person2);
     }
 
 }
